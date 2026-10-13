@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PetHealth.Application/PetHealth.Application.csproj" />
+    <Project Path="src/PetHealth.Domain/PetHealth.Domain.csproj" />
+    <Project Path="src/PetHealth.Infrastructure/PetHealth.Infrastructure.csproj" />
+  </Folder>
+  <Project Path="pethealth.client/pethealth.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="PetHealth.Server/PetHealth.Server.csproj" />
+</Solution>
