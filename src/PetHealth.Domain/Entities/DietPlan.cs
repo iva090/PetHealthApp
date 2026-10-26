@@ -1,6 +1,8 @@
-﻿namespace PetHealth.Domain.Entities
+﻿using PetHealth.Domain.Common;
+
+namespace PetHealth.Domain.Entities
 {
-    public class DietPlan
+    public class DietPlan : BaseEntity
     {
         public Guid PetId { get; set; }
         public string FoodName { get; set; } = default!;

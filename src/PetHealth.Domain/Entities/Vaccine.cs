@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetHealth.Domain.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PetHealth.Domain.Entities
 {
-    internal class Vaccine
+    public class Vaccine : BaseEntity
     {
         public Guid PetId { get; set; }
         public string Name { get; set; } = default!;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PetHealth.Domain.Entities
 {
-    internal class Pet : BaseEntity
+    public class Pet : BaseEntity
     {
         public string OwnerId { get; set; } = default!;
         public string Name { get; set; } = string.Empty;
