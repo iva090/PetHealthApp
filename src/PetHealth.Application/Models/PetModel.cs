@@ -2,11 +2,14 @@
 {
     public class PetModel
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public string Species { get; set; } = string.Empty;
         public string Breed { get; set; } = string.Empty;
-        public double WeightKg { get; set; }
-        public int VaccineCount { get; set; }
+        public DateTime BirthDate { get; set; }
+
+        public List<VaccineModel> Vaccines { get; set; } = [];
+        public List<VetVisitModel> VetVisits { get; set; } = [];
+        public List<DietPlanModel> DietPlans { get; set; } = [];
     }
 }
