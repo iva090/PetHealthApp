@@ -21,8 +21,9 @@
     <ProjectReference Include="..\pethealth.client\pethealth.client.esproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="..\src\PetHealth.Application\PetHealth.Application.csproj" />
-    <ProjectReference Include="..\src\PetHealth.Infrastructure\PetHealth.Infrastructure.csproj" />
+    <ProjectReference Include="..\src\PetHealth.Application\PetHealth.Business.csproj" />
+    <ProjectReference Include="..\src\PetHealth.Domain\PetHealth.Data.csproj" />
+    <ProjectReference Include="..\src\PetHealth.Infrastructure\PetHealth.WebApi.csproj" />
   </ItemGroup>
 
   <ItemGroup>

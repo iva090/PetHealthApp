@@ -4,7 +4,7 @@ using PetHealth.Domain.Entities;
 
 namespace Data.Interfaces;
 
-public interface IUnitOfWork : IDisposable
+public interface IUnitOfWork
 {
     IPetRepository Pets { get; }
     IVaccineRepository Vaccines { get; }
