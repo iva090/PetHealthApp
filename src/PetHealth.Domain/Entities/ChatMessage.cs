@@ -9,7 +9,7 @@ namespace PetHealth.Data.Entities
         public string Message { get; set; } = string.Empty;
         public DateTime SentAt { get; set; } = DateTime.UtcNow;
 
-        public int PetId { get; set; }
+        public Guid PetId { get; set; }
         public Pet? Pet { get; set; } = null;
     }
 }

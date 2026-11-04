@@ -5,6 +5,6 @@ namespace PetHealth.Data.Interfaces
 {
     public interface IChatMessageRepository : IRepository<ChatMessage>
     {
-        Task<IReadOnlyList<ChatMessage>> GetHistoryAsync(Guid petId, int take);
+        Task<IEnumerable<ChatMessage>> GetHistoryAsync(Guid petId, int take);
     }
 }
